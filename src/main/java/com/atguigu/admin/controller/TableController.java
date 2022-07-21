@@ -31,7 +31,7 @@ public class TableController {
      */
     @GetMapping("/basic_table")
     public String basic_table(@RequestParam("a") int a) {
-//        int i = 10 / 0;
+        int i = 10 / 0;
         return "table/basic_table";
     }
 
